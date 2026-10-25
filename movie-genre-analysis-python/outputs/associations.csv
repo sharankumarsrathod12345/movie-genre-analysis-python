@@ -1,0 +1,8 @@
+x,y,n,spearman_rho
+vote_average,revenue,3137,0.12569097393252116
+vote_average,gross_surplus_proxy,3137,0.2302842740327791
+popularity,revenue,3137,0.5745125306483142
+popularity,gross_surplus_proxy,3137,0.5341689083831799
+budget,revenue,3137,0.6442297740365821
+budget,gross_surplus_proxy,3137,0.3252227483425039
+budget,popularity,3137,0.3848448767723426

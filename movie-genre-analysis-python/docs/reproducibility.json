@@ -1,0 +1,15 @@
+{
+  "python": "3.12.14",
+  "packages": {
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8",
+    "seaborn": "0.13.2",
+    "scipy": "1.17.0",
+    "nbformat": "5.11.1"
+  },
+  "inputs": {
+    "imdb_movies.csv": "c148ca17c3c2fe117048c7f6565374496f831ccdbddd91c5f8214a533679650f"
+  },
+  "validation": "sequential Python execution; nbformat passed; native kernel blocked by socket permissions"
+}
