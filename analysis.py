@@ -3,7 +3,8 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from IPython.display import display
-ROOT = Path.cwd() if (Path.cwd() / 'data').exists() else Path.cwd().parent
+# Resolve inputs relative to this script, regardless of the caller's directory.
+ROOT = Path(__file__).resolve().parent
 OUT = ROOT / 'outputs'
 OUT.mkdir(exist_ok=True)
 pd.set_option('display.max_columns', 12)

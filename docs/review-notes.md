@@ -10,3 +10,7 @@
 - Current findings are descriptive, not proof of causes or an investment strategy.
 
 Validation: all code cells ran against the supplied data in order; nbformat validation passed. Native Jupyter launch is blocked by socket permissions in the execution environment, not by a notebook error. Run the notebook locally for native-kernel confirmation.
+
+## GitHub publication review — 2026-10-25
+
+Published input, code, notebook, and output blobs matched the reviewed package. Removed the redundant outer project directory so the root README and run instructions agree. Added a business summary, clarified third-party data licensing, and changed the standalone script to resolve paths relative to its file. Standalone scripts were rerun; native notebook-kernel validation is still pending.
