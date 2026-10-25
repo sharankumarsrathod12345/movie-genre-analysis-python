@@ -11,5 +11,5 @@
   "inputs": {
     "imdb_movies.csv": "c148ca17c3c2fe117048c7f6565374496f831ccdbddd91c5f8214a533679650f"
   },
-  "validation": "sequential Python execution; nbformat passed; native kernel blocked by socket permissions"
+  "validation": "Original local sequential execution passed; native Jupyter validation subsequently passed on GitHub Actions. See native-validation.json for the tested commit and environment."
 }
